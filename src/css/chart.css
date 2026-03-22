@@ -1,0 +1,54 @@
+.axis path,
+.axis line {
+	stroke: #94a3b8;
+}
+
+path {
+	stroke-width: 1;
+	fill: none;
+}
+
+.line {
+	stroke: #e11d48;
+	stroke-width: 3;
+	opacity: 0.92;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+.line_reference {
+	stroke: #059669;
+	stroke-width: 3;
+	opacity: 0.85;
+	stroke-linecap: round;
+}
+
+.bar {
+	fill: #e11d48;
+	opacity: 0.85;
+}
+
+.area {
+	fill: #93c5fd;
+	opacity: 0.45;
+}
+
+.x-axis,
+.y-axis {
+	font-size: 0.75rem;
+	font-family: "DM Sans", system-ui, sans-serif;
+	fill: #64748b;
+}
+
+.x-axis path,
+.x-axis line,
+.y-axis path,
+.y-axis line {
+	stroke: #cbd5e1;
+}
+
+.mean {
+	stroke-dasharray: 5, 5;
+	stroke-width: 2;
+	stroke: #94a3b8;
+}

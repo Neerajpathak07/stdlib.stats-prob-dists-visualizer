@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Beta distribution</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.3/nouislider.min.css"/>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.6.3/nouislider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wnumb/1.2.0/wNumb.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured"></script>
+</head>
+
+<body class="page-distribution">
+
+<div class="container">
+
+<header class="page-header">
+    <a class="back-link" href="./index.html">← Back to home</a>
+    <h1>Beta distribution</h1>
+    <p class="description">
+        defined on the interval [0, 1] or [0, 1] in terms of two positive parameters, denoted by alpha $α$ and beta $β$
+    </p>
+</header>
+
+<div class="chart-panel">
+    <div id="chart"></div>
+</div>
+
+<div class="controls">
+    <div class="slider-label">$\alpha$</div>
+    <div id="slider_0"></div>
+</div>
+
+<div class="controls">
+    <div class="slider-label">$\beta$</div>
+    <div id="slider_1"></div>
+</div>
+
+<div class="formula">
+$$
+    f(x) = \frac{x^{\alpha-1}(1-x)^{\beta-1}}{\text{B}(\alpha, \beta)}
+    \\[20pt]
+    \text{where $\text{B}(\alpha, \beta)=\frac{\Gamma(\alpha)\Gamma(\beta)}{\Gamma(\alpha+\beta)}$ and $\Gamma$ is the Gamma function.} \\
+$$
+</div>
+</div>
+
+</body>
+</html>
