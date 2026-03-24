@@ -27,7 +27,7 @@ npm run serve
 ---
 
 Tools used
-- [stdlib.js](https://github.com/stdlib-js/stdlib) (`@stdlib/stats-base-dists-*`)
+- [stdlib.js](https://github.com/stdlib-js/stdlib) (`stdlib/stats/base/dists/*`)
 - [D3.js](https://d3js.org/)
 - [noUiSlider](https://refreshless.com/nouislider/)
 
